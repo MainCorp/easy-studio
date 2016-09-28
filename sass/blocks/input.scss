@@ -1,0 +1,22 @@
+.input {
+  margin-top: 15px;
+
+  /* Типография */
+  font-family: 'Corbel';
+  font-weight: lighter;
+  font-size: 18px;
+  color: #181923;
+}
+
+.input__value {
+  padding: 17px 20px;
+  border: 1px solid #cf565f;
+  border-radius: 10px;
+  width: 270px;
+
+  /* Типография */
+  font-family: 'Calibri';
+  font-weight: lighter;
+  font-size: 18px;
+  color: #aeaeae;
+}

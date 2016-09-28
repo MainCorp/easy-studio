@@ -1,0 +1,76 @@
+@keyframes open-menu {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.page-nav__menu {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  display: none;
+  width: 100%;
+  background-color: #1e1f28;
+}
+
+.page-nav__open {
+  width: 45px;
+  height: 28px;
+  border: 0;
+  outline: 0;
+
+  /* Оформление */
+  background: url('../img/burger.png') no-repeat;
+  cursor: pointer;
+}
+
+.page-nav__close {
+  width: 32px;
+  height: 29px;
+  border: 0;
+  outline: 0;
+
+  /* Оформление */
+  background: url('../img/menu-close.png') no-repeat;
+  cursor: pointer;
+}
+
+.page-nav__list {
+  padding: 0 20px;
+  margin: 70px 40px;
+  list-style: none;
+}
+
+.page-nav__link {
+  /* Типография */
+  font-family: 'Corbel';
+  font-size: 72px;
+  line-height: 120px;
+  font-weight: bold;
+  color: #feffff;
+  text-decoration: none;
+    transition: all .2s;
+
+  &:hover {
+    color: #b5575f;
+  }
+}
+
+.page-nav__contact {
+  margin: 0 50px;
+}
+
+.page-nav__contact-social {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  padding-bottom: 50px;
+}
+
+.page-nav__communication {
+  padding: 0 20px;
+  padding-bottom: 50px;
+}

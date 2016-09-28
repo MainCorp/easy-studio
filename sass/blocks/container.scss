@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+
+
+  &--nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  &--pad {
+    width: 640px;
+  }
+
+  &--contacts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media #{$screen} {
+    width: 1250px;
+  }
+
+  @media #{$full-screen} {
+    width: 1920px;
+  }
+}

@@ -1,0 +1,60 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact__item {
+  /* Типография */
+  font-family: 'Calibri';
+  font-size: 24px;
+  color: #feffff;
+  text-decoration: none;
+  transition: all .2s;
+
+  &:hover {
+    color: #b5575f;
+  }
+}
+
+.contact__tel {
+  margin: 0;
+
+  /* Типография */
+  font-family: 'Calibri';
+  font-size: 24px;
+  font-weight: lighter;
+  color: #feffff;
+}
+
+.contact__mail {
+  /* Типография */
+  font-family: 'Calibri';
+  font-size: 24px;
+  font-weight: lighter;
+  color: #feffff;
+  text-decoration: none;
+
+  &--nav {
+    display: block;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.contact__address {
+  margin: 0;
+
+  /* Типография */
+  font-family: 'Calibri';
+  font-size: 24px;
+  font-weight: lighter;
+  color: #feffff;
+}
+
+.contact__social {
+  display: flex;
+  flex-direction: column;
+  padding-right: 150px;
+}

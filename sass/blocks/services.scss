@@ -1,0 +1,61 @@
+.services {
+  /* Оформление */
+  background-color: #424a4c;
+}
+
+.services__item {
+  position: relative;
+  height: 415px;
+  background: url('../img/full-portfolio.jpg') no-repeat;
+}
+
+.services__title {
+  padding: 15px 40px 65px;
+  margin: 0;
+
+  /* Типография */
+  font-family: 'Corbel';
+  font-weight: lighter;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.services__list {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 50px;
+}
+
+.services__desc {
+  margin: 0;
+
+  /* Типография */
+  font-family: 'Corbel';
+  font-weight: lighter;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.services__price {
+  margin-left: 50px;
+}
+
+.services__order {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  padding: 5px 20px;
+
+  /* Типография */
+  font-family: 'Corbel';
+  font-weight: lighter;
+  font-size: 18px;
+  color: #eceff1;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  /* Оформление */
+  background-color: #b5575f;
+}

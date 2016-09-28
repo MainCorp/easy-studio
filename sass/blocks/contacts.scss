@@ -1,0 +1,135 @@
+.contacts {
+  background-color: #1e1f28;
+}
+
+.contacts__title {
+  margin: 0;
+  /* Типография */
+  font-family: 'Corbel';
+  font-weight: lighter;
+  font-size: 21px;
+  color: #ffffff;
+}
+.contacts__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contacts__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 400px;
+  padding-left: 50px;
+  margin-top: 20px;
+}
+
+.contacts__item {
+  position: relative;
+  width: 170px;
+  margin-bottom: 50px;
+}
+
+.contacts__desc {
+  margin: 0;
+  /* Типография */
+  font-family: 'Corbel';
+  font-weight: lighter;
+  font-size: 16px;
+  color: #ffffff;
+
+  &--tel {
+    &:before {
+      content: "";
+      position: absolute;
+      left: -45px;
+      top: 5px;
+      width: 33px;
+      height: 35px;
+      background: url('../img/tel.png') no-repeat;
+    }
+  }
+
+  &--tel2 {
+    &:before {
+      content: "";
+      position: absolute;
+      left: -45px;
+      top: 5px;
+      width: 38px;
+      height: 36px;
+      background: url('../img/tel2.png') no-repeat;
+    }
+  }
+}
+
+.contacts__link {
+  position: relative;
+  /* Типография */
+  font-family: 'Corbel';
+  font-weight: lighter;
+  font-size: 16;
+  color: #ffffff;
+  text-decoration: none;
+
+  &--mail {
+    &:before {
+      content: "";
+      position: absolute;
+      left: -45px;
+      top: 5px;
+      width: 38px;
+      height: 36px;
+      background: url('../img/mail.png') no-repeat;
+    }
+  }
+
+  &--skype {
+    &:before {
+      content: "";
+      position: absolute;
+      left: -45px;
+      top: 5px;
+      width: 38px;
+      height: 36px;
+      background: url('../img/skype.png') no-repeat;
+    }
+  }
+}
+
+.contacts__social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 150px;
+  margin-top: 25px;
+}
+
+.contacts__social-item {
+  display: block;
+  width: 21px;
+  height: 20px;
+  font-size: 0;
+
+  &--vk {
+    width: 34px;
+    height: 19px;
+    background: url('../img/vk.png') no-repeat;
+  }
+
+  &--be {
+    background: url('../img/be.png') no-repeat;
+  }
+
+  &--fb {
+    background: url('../img/fb.png') no-repeat;
+  }
+
+  &--tw {
+    width: 25px;
+    height: 20px;
+    background: url('../img/tw.png') no-repeat;
+  }
+}

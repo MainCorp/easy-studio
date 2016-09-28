@@ -1,0 +1,119 @@
+.portfolio {
+  /* Оформление */
+  background-color: #424a4c;
+}
+
+.portfolio__main-item {
+  height: 339px;
+  padding: 40px;
+
+  /* Оформление */
+  background: url('../img/full-portfolio.jpg');
+}
+
+.portfolio__title {
+  /* Блочная модель */
+  margin: 0;
+
+  /* Типография */
+  font-family: 'Corbel';
+  font-size: 36px;
+  color: #feffff;
+}
+
+.portfolio__link {
+  /* Типография */
+  font-family: 'Corbel';
+  font-weight: lighter;
+  font-size: 24px;
+  color: #b5575f;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.portfolio__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.portfolio__item {
+  max-height: 210px;
+}
+
+.portfolio-more__wrapper {
+  /* Оформление */
+  background-color: #cf5760;
+  cursor: pointer;
+}
+
+.portfolio-more__all {
+  /* Позиционирование */
+  position: relative;
+
+  /* Блочная модель */
+  padding: 40px 20px;
+  border: 0;
+  outline: 0;
+
+  /* Типография */
+  font-family: 'Corbel';
+  font-weight: lighter;
+  font-size: 30px;
+  color: #feffff;
+
+  /* Оформление */
+  background: none;
+}
+
+.portfolio-more__all:after {
+  position: absolute;
+  right: -255px;
+  top: 45px;
+  content: "";
+  width: 45px;
+  height: 23px;
+  background: url('../img/more.png') no-repeat;
+  background-position: 0;
+}
+
+.portfolio-more__container {
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #ffffff;
+}
+
+.portfolio-more__item {
+  padding: 25px 0;
+  min-width: 300px;
+}
+
+.portfolio-more__link-collection {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  padding-bottom: 0;
+}
+
+.portfolio-more__title {
+  margin: 0;
+
+  /* Типография */
+  font-family: 'Calibri';
+  font-weight: lighter;
+  font-size: 24px;
+  color: #000;
+}
+
+.portfolio-more__link {
+  /* Типография */
+  font-family: 'Calibri';
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 30px;
+  color: #8a8a8a;
+  text-decoration: none;
+}

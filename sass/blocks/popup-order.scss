@@ -1,0 +1,96 @@
+.popup-order {
+  position: absolute;
+  top: 10%;
+  left: 11%;
+  display: none;
+  background-color: #fff;
+}
+
+.popup-order__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #b5575f;
+}
+
+.popup-order__title {
+  margin: 0;
+  padding: 25px;
+  /* Типография */
+  font-family: 'Calibri';
+  font-weight: lighter;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.popup-order__close {
+  width: 31px;
+  height: 31px;
+  border: 0;
+  outline: 0;
+  margin-top: 25px;
+  margin-right: 20px;
+  background: url('../img/popup-close.png') no-repeat;
+}
+
+.popup-order__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.popup-order__form {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  margin-left: 20px;
+}
+
+.popup-order__contacts {
+  max-width: 250px;
+  margin-left: 15px;
+}
+
+.popup-order__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.popup-order__surely {
+  margin-top: 25px;
+  min-width: 150px;
+  /* Типография */
+  font-family: 'Corbel';
+  font-weight: lighter;
+  font-size: 14px;
+  color: #73909c;
+}
+
+.popup-order__contacts-title {
+  margin-bottom: 0;
+  /* Типография */
+  font-family: 'Corbel';
+  font-weight: lighter;
+  font-size: 18px;
+  color: #0c1013;
+}
+
+.popup-order__number {
+  margin: 0;
+  /* Типография */
+  font-family: 'Calibri';
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 24px;
+  color: #73909c;
+}
+
+.popup-order__mail {
+  /* Типография */
+  font-family: 'Calibri';
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 24px;
+  color: #73909c;
+  text-decoration: none;
+}
