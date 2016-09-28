@@ -22,4 +22,12 @@
     padding: 10px 15px;
     margin: 54px -5px;
   }
+
+  &:hover {
+    opacity: .8;
+  }
+
+  &:active {
+    opacity: .5;
+  }
 }

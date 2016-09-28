@@ -404,9 +404,12 @@ body {
     right: 0;
     padding: 10px 15px;
     margin: 54px -5px; }
+  .button:hover {
+    opacity: .8; }
+  .button:active {
+    opacity: .5; }
 
 .container {
-  position: relative;
   width: 600px;
   margin: 0 auto; }
   .container--nav {
@@ -417,6 +420,7 @@ body {
   .container--pad {
     width: 640px; }
   .container--contacts {
+    position: relative;
     display: flex;
     flex-direction: column; }
   @media (min-width: 1250px) {
@@ -693,10 +697,9 @@ body {
 
 .popup-order {
   position: absolute;
-  top: 10%;
-  left: 11%;
-  display: none;
-  background-color: #fff; }
+  top: 6%;
+  background-color: #fff;
+  display: none; }
 
 .popup-order__header {
   display: flex;
@@ -720,7 +723,8 @@ body {
   outline: 0;
   margin-top: 25px;
   margin-right: 20px;
-  background: url("../img/popup-close.png") no-repeat; }
+  background: url("../img/popup-close.png") no-repeat;
+  cursor: pointer; }
 
 .popup-order__container {
   display: flex;
@@ -729,7 +733,7 @@ body {
 .popup-order__form {
   display: flex;
   flex-direction: column;
-  width: 330px;
+  width: 350px;
   margin-left: 20px; }
 
 .popup-order__contacts {
@@ -756,7 +760,7 @@ body {
   font-family: 'Corbel';
   font-weight: lighter;
   font-size: 18px;
-  color: #0c1013; }
+  color: #73909c; }
 
 .popup-order__number {
   margin: 0;
@@ -922,6 +926,7 @@ body {
   color: #eceff1;
   text-transform: uppercase;
   text-decoration: none;
+  cursor: pointer;
   /* Оформление */
   background-color: #b5575f; }
 
@@ -931,13 +936,14 @@ body {
   font-family: 'Corbel';
   font-weight: lighter;
   font-size: 18px;
-  color: #181923; }
+  color: #73909c; }
 
 .input__value {
   padding: 17px 20px;
   border: 1px solid #cf565f;
   border-radius: 10px;
   width: 270px;
+  outline: 0;
   /* Типография */
   font-family: 'Calibri';
   font-weight: lighter;

@@ -82,7 +82,7 @@
                 <p class="services__desc">от 500$</p>
               </div>
             </div>
-            <a class="services__order" href="#">Заказать</a>
+            <a class="services__order">Заказать</a>
           </div>
 
           <div class="services__item">
@@ -93,7 +93,7 @@
                 <p class="services__desc">Контекстная реклама</p>
               </div>
             </div>
-            <a class="services__order" href="#">Заказать</a>
+            <a class="services__order">Заказать</a>
           </div>
 
           <div class="services__item">
@@ -112,7 +112,7 @@
                 <p class="services__desc">от 70$</p>
               </div>
             </div>
-            <a class="services__order" href="#">Заказать</a>
+            <a class="services__order">Заказать</a>
           </div>
 
           <div class="services__item">
@@ -131,7 +131,7 @@
                 <p class="services__desc">от 90$</p>
               </div>
             </div>
-            <a class="services__order" href="#">Заказать</a>
+            <a class="services__order">Заказать</a>
           </div>
         </div>
       </div>
@@ -161,8 +161,8 @@
       </div>
     </footer>
 
-    <div class="popup-order">
-      <div class="container">
+    <div class="container">
+      <div class="popup-order">
         <div class="popup-order__header">
           <p class="popup-order__title">Вы заказываете услугу создания сайта</p>
           <button class="popup-order__close" type="button"></button>
@@ -175,12 +175,12 @@
             </label>
             <label class="input">
               Номер вашего телефона: <sup class="paragraph">*</sup><br>
-              <input class="input__value" type="text" placeholder="+380 (__) ________">
+              <input class="input__value  input__value" type="text" placeholder="+380 (__) ________" required>
             </label>
 
             <div class="popup-order__inner">
               <p class="popup-order__surely"><span class="paragraph  paragraph--grey">*</span> - Обязательное поле</p>
-              <button class="button" type="button">Отправить</button>
+              <button class="button  button--popup" type="button">Отправить</button>
             </div>
           </form>
 
@@ -196,5 +196,6 @@
     </div>
 
     <script src="js/scripts.js"></script>
+    <script src="js/popup.js"></script>
   </body>
 </html>

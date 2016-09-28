@@ -1,9 +1,8 @@
 .popup-order {
   position: absolute;
-  top: 10%;
-  left: 11%;
-  display: none;
+  top: 6%;
   background-color: #fff;
+  display: none;
 }
 
 .popup-order__header {
@@ -31,6 +30,7 @@
   margin-top: 25px;
   margin-right: 20px;
   background: url('../img/popup-close.png') no-repeat;
+  cursor: pointer;
 }
 
 .popup-order__container {
@@ -41,7 +41,7 @@
 .popup-order__form {
   display: flex;
   flex-direction: column;
-  width: 330px;
+  width: 350px;
   margin-left: 20px;
 }
 
@@ -72,7 +72,7 @@
   font-family: 'Corbel';
   font-weight: lighter;
   font-size: 18px;
-  color: #0c1013;
+  color: #73909c;
 }
 
 .popup-order__number {
